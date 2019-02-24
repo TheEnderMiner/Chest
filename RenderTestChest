@@ -11,7 +11,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 @SideOnly(Side.CLIENT)
 public class RenderTestChest extends TileEntitySpecialRenderer<TileEntityTestChest>{
-	private static final ResourceLocation TEXTURE = new ResourceLocation(VanillaEvolutionMod.MODID + ":texture/blocks/test_chest.png");
+	private static final ResourceLocation TEXTURE = new ResourceLocation(VanillaEvolutionMod.MODID + ":textures/blocks/test_chest.png");
 	private final ModelTestChest MODEL = new ModelTestChest();
 	
 	@Override
